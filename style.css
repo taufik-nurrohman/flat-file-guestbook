@@ -1,0 +1,137 @@
+* {
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+html,
+body {
+  height:100%;
+  min-height:100%;
+}
+body {
+  background-color:white;
+  font:normal normal 11px/1.4 Tahoma,Verdana,Arial,Sans-Serif;
+  color:#222;
+}
+a {
+  color:#666;
+  text-decoration:none;
+}
+a:focus,
+a:hover {text-decoration:underline}
+button,
+input,
+textarea {
+  display:inline-block;
+  *display:inline;
+  width:100%;
+  text-align:left;
+  margin:0 0 2px;
+  padding:4px;
+  font:inherit;
+  line-height:1;
+  color:#666;
+  background-color:#eee;
+  border:1px solid #999;
+}
+input {display:block}
+textarea {
+  display:block;
+  resize:vertical;
+  line-height:inherit;
+  height:80px;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+}
+button {
+  width:auto;
+  padding:5px 8px;
+  background-color:#ECDE8C;
+  border-color:#BCAF6F;
+  color:#5D5A31;
+  font-weight:bold;
+  cursor:pointer;
+  float:right;
+}
+input:focus,
+textarea:focus {color:#333}
+button:focus,
+button:hover {
+  background-color:#E0D183;
+  border-color:#9D935D;
+}
+input[name="math"] {
+  display:inline-block;
+  display:*inline;
+  width:30px;
+}
+.guestbook {
+  width:auto;
+  padding:10px;
+}
+.guestbook form label {
+  display:block;
+  float:left;
+  width:50px;
+  text-align:right;
+  padding-top:3px;
+}
+.guestbook form div {margin-left:58px}
+.guestbook hr {
+  height:0;
+  border:none;
+  border-top:1px solid #999;
+  margin:10px 0 10px;
+}
+.guest-messages {
+  border:1px solid #aaa;
+  /*
+  height:300px;
+  overflow:auto;
+  */
+}
+.guest-item {
+  border-top:1px solid #aaa;
+  padding:4px;
+  position:relative;
+}
+.guest-item:first-child {border-top:none}
+.guest-name {
+  font-weight:bold;
+  margin-left:2px;
+}
+.guest-timestamp {
+  float:right;
+  margin-right:2px;
+}
+.guest-message {
+  display:block;
+  clear:both;
+  margin-top:4px;
+  padding:4px 6px;
+  background-color:#eee;
+}
+.guestbook-nav {
+  margin:5px 0;
+  text-align:center;
+}
+.message-error,
+.message-warning {
+  padding:5px 10px;
+  background-color:#FFDBD8;
+  border-top:1px solid #aaa;
+}
+.message-warning {background-color:#DBFFD8}
+.message-error:first-child,
+.message-warning:first-child {border-top:none}
+.clear {
+  display:block;
+  clear:both;
+}

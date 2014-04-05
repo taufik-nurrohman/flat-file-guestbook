@@ -1,0 +1,6 @@
+# Prevent viewing of TXT file
+<Files ~ "\.txt$">
+	order allow,deny
+	deny from all
+	satisfy all
+</Files>
