@@ -118,6 +118,8 @@ input[name="math"] {
   padding:4px 6px;
   background-color:#eee;
 }
+.guest-item:target {background:#ffc}
+.guest-item:target .guest-message {background-color:#f2f2c2}
 .guestbook-nav {
   margin:5px 0;
   text-align:center;
