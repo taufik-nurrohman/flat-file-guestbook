@@ -24,7 +24,6 @@ $max_length_name = 60; // Maximum character length for guest name
 $max_length_url = 120; // Maximum character length for guest URL
 $max_length_message = 1000; // Maximum character length for guest message
 $messages = array(
-    'database_missing' => 'Database not found. Created one. Please reload the page.',
     'name_missing' => 'Please enter your name.',
     'url_invalid' => 'Invalid URL.',
     'message_missing' => 'Please enter your message.',
