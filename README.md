@@ -1,16 +1,16 @@
 Introduction
 ------------
 
-![Screenshot](http://4.bp.blogspot.com/-gbPrAb7GAbM/UvWVwUgDm6I/AAAAAAAAIdI/STPaTQerxtg/s1600/flat-file-guestbook-with-php.png)
+![Screenshot](index.png)
 
 *Flat-File GuestBook* is a simple-single file guestbook application without database written in PHP. Instead, the user data will be stored into a text file.
 
 Details
 -------
 
-Download and extract the file to get a `guestbook` folder. Copy the folder and it&rsquo;s contents then paste to your localhost folder.
+Download this project to your “WWW” folder then extract it!
 
-Now open `http://localhost/guestbook/index.php` with your favorite browser. *Done!*
+Now open `http://127.0.0.1/index.php` with your favorite browser. *Done!*
 
 Configurations
 --------------
